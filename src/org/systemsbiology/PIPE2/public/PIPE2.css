@@ -1,0 +1,311 @@
+.pipe2-classyText{
+	font-family: Arial, sans-serif;
+	color: blue;
+}
+/*body {
+	background-color: white;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-size: small;
+	margin: 8px;
+}
+
+.gwt-TabPanel {
+}
+
+.gwt-TabPanelBottom {
+  border-left: 1px solid #87B3FF;
+  border-bottom: 1px solid #87B3FF;
+  border-right: 1px solid #87B3FF;
+  border-top : 1px solid #87B3FF;
+}
+
+.gwt-TabBar {
+  background-color: #C3D9FF;
+  font-size: smaller;
+}
+
+.gwt-TabBar .gwt-TabBarFirst {
+  height: 100%;
+  border-bottom: 1px solid #87B3FF;
+  padding-left: 3px;
+}
+
+.gwt-TabBar .gwt-TabBarRest {
+*/
+
+/*border-bottom: 1px solid #87B3FF;
+  padding-right: 3px;
+}
+
+/*.gwt-TabBar .gwt-TabBarItem {
+  border-top: 1px solid #C3D9FF;
+/*border-bottom: 1px solid #87B3FF;
+
+  background-color: #e8eef7;
+  padding: 4px;
+  cursor: pointer;
+  cursor: hand;
+  margin-right: 4px;
+}
+
+.gwt-TabBar .gwt-TabBarItem-selected {
+  */
+/*font-weight: bold;*/
+/*
+  background-color: #A8AEB7;
+  border-top: 1px solid #87B3FF;
+  border-left: 1px solid #87B3FF;
+  border-right: 1px solid #87B3FF;
+ */
+/* border-bottom: 1px solid #87B3FF;*/ /*
+*/
+/*#E8EEF7;*/
+/*
+  padding: 4px;
+  cursor: default;
+}
+.gwt-DialogBox {
+	border: 2px solid #AAAAAA;
+	background-color: white;
+}
+
+.gwt-DialogBox .Caption {
+	background-image: url(images/blue_gradient.jpg);
+	background-repeat: repeat-x;
+	padding: 4px;
+	padding-bottom: 8px;
+	font-weight: bold;
+	cursor: default;
+}
+*/
+
+
+/*
+
+
+.gwt-TabBar {
+}
+.gwt-TabBar .gwt-TabBarFirst {
+  width: 5px;
+*/
+/* first tab distance from the left */
+/*
+}
+.gwt-TabBar .gwt-TabBarRest {
+}
+.gwt-TabBar .gwt-TabBarItem {
+  border-collapse: collapse;
+  margin-left: 6px;
+}
+.gwt-TabBar .gwt-TabBarItem .topCenter {
+  padding: 0px;
+  background: url(images/hborder.png) 0px -32px repeat-x;
+}
+.gwt-TabBar .gwt-TabBarItem .topLeft,
+.gwt-TabBar .gwt-TabBarItem .topRight {
+  padding: 0px;
+  zoom: 1;
+}
+.gwt-TabBar .gwt-TabBarItem .topLeftInner,
+.gwt-TabBar .gwt-TabBarItem .topRightInner {
+  width: 6px;
+  height: 6px;
+}
+.gwt-TabBar .gwt-TabBarItem .middleLeft,
+.gwt-TabBar .gwt-TabBarItem .middleRight {
+  width: 6px;
+  padding: 0px;
+  background: #e4e9f3 url(images/bg_tab.png) repeat-x;
+}
+.gwt-TabBar .gwt-TabBarItem .middleCenter {
+  padding: 0px 4px 2px 4px;
+  cursor: pointer;
+  cursor: hand;
+  font-weight: bold;
+  text-align: center;
+  background: #e4e9f3 url(images/bg_tab.png) repeat-x;
+}
+.gwt-TabBar .gwt-TabBarItem-selected .topCenter {
+  background: url(images/hborder.png) 0px -38px repeat-x;
+}
+.gwt-TabBar .gwt-TabBarItem-selected .middleLeft,
+.gwt-TabBar .gwt-TabBarItem-selected .middleRight {
+  background: #92c1f0 url(images/bg_tab_selected.png) repeat-x;
+}
+.gwt-TabBarItem-selected .middleCenter {
+  cursor: default;
+  background: #92c1f0 url(images/bg_tab_selected.png) repeat-x;
+}
+.gwt-TabBar .gwt-TabBarItem .topLeft {
+  background: url(images/corner.png) no-repeat 0px -55px;
+}
+.gwt-TabBar .gwt-TabBarItem .topRight {
+  background: url(images/corner.png) no-repeat -6px -55px;
+}
+.gwt-TabBar .gwt-TabBarItem-selected .topLeft {
+  background-position: 0px -61px;
+}
+.gwt-TabBar .gwt-TabBarItem-selected .topRight {
+  background-position: -6px -61px;
+}
+.gwt-TabBar .gwt-TabBarItem .topLeftInner {
+  width: 5px;
+  height: 61px;
+  margin-top: -55px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/corner.png',sizingMethod='crop');
+}
+.gwt-TabBar .gwt-TabBarItem .topRightInner {
+  width: 12px;
+  height: 61px;
+  margin-top: -55px;
+  margin-left: -6px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/corner.png',sizingMethod='crop');
+}
+.gwt-TabBar .gwt-TabBarItem-selected .topLeftInner {
+  width: 5px;
+  height: 67px;
+  margin-top: -61px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/corner.png',sizingMethod='crop');
+}
+.gwt-TabBar .gwt-TabBarItem-selected .topRightInner {
+  width: 12px;
+  height: 67px;
+  margin-top: -61px;
+  margin-left: -6px;
+  overflow: hidden;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/corner.png',sizingMethod='crop');
+}
+.gwt-TabPanel {
+}
+.gwt-TabPanelBottom {
+  border-color: #92c1f0;
+  border-style: solid;
+  border-width: 3px 2px 2px;
+  overflow: hidden;
+  padding: 6px;
+}
+*/
+.gwt-MenuBarPopup{
+    z-index: 9999;
+}
+.gwt-ScrollTable {
+  border-color: #aaa;
+  border-style: solid;
+  border-width: 1px 0px 1px 1px;
+}
+
+.gwt-ScrollTable .headerWrapper {
+  background: #8bd url(images/bg_header_gradient.gif) repeat-x bottom left;
+}
+
+.gwt-ScrollTable .footerWrapper {
+  border-top: 1px solid #aaa;
+  background: #8bd url(images/bg_header_gradient.gif) repeat-x bottom left;
+}
+
+.gwt-ScrollTable .dataTable td,
+.gwt-ScrollTable .headerTable td,
+.gwt-ScrollTable .footerTable td {
+  border-color: #aaa;
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 3px;
+}
+
+.gwt-ScrollTable .headerTable td,
+.gwt-ScrollTable .footerTable td {
+  color: #fff;
+}
+
+.gwt-ScrollTable .dataTable tr.hovering {
+  background: #C3D9FF;
+}
+
+.gwt-ScrollTable .dataTable td.hovering {
+  background: #FFFFAA;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.gwt-ScrollTable .dataTable tr.selected {
+  background: #7AA5D6;
+}
+.gwaplet-GOEnrichmentInputTable{
+	
+}
+.pipe2-ProgressBar{
+	border-color: gray;
+	border-width: 1px;
+	border-style: dashed;
+	border-collapse: collapse;
+}
+.pipe2-ProgressBar-CompleteSection{
+	background-image: url(images/TableTitleBG_short.JPG);
+	background-repeat: repeat-x;
+	background-position: "0% 0%";
+}
+.pipe2-ProgressBar-ToGoSection{
+	background-color: #bbbbff;
+}
+
+/* Display's tooltips like in Eclipse */
+.tooltip .gwt-HTML {
+        border: 1px solid black;
+        padding: 2px 3px 3px 3px;
+        font-size: smaller;
+        background-color: #ffffcc; /*Pale Weak Yellow*/ 
+}
+
+.pipe2-portlet{
+ 	border-collapse: collapse;
+}
+.pipe2-fportletviewTitle {
+	text-decoration: underline;
+}
+.pipe2-portletTop{
+	background-image: url(images/portlet-top.jpg);
+	height: 25px;
+	/*width: 100%*/
+}
+.pipe2-portletLeft{
+	background-image: url(images/portlet-left.jpg);
+}
+.pipe2-portletRight{
+	background-image: url(images/portlet-right.jpg);
+}
+.pipe2-portletBottom{
+	background-image: url(images/portlet-bottom.jpg);
+	height: 6px;
+}
+.pipe2-portletTopLeft{
+	background-image: url(images/portlet-topLeft.jpg);
+}
+.pipe2-portletTopRight{
+	background-image: url(images/portlet-topRight.jpg);
+}
+.pipe2-portletBottomLeft{
+	background-image: url(images/portlet-bottomLeft.jpg);
+}
+.pipe2-portletBottomRight{
+	background-image: url(images/portlet-bottomRight.jpg);
+}
+.pipe2-processingRequest{
+	background-image: url(images/blue_gradient.jpg);
+	background-repeat: repeat-x;
+	border: 1px solid #AAAAAA;
+	padding: 4px;
+}
+.white-bg {
+    background: #FFFFFF;
+}
+.swfHidden{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}

@@ -1,0 +1,13 @@
+deploy_dir=C:/apache-tomcat-6.0.28/webapps
+gwt_home=C:/Documents and Settings/hramos/My Documents/gwt-2.0.4
+servlet-api.jar=${env.TOMCAT_HOME}/servlet-api.jar
+module=PIPE2
+package=org.systemsbiology.PIPE2
+test=*
+url=http://localhost:8080/${ant.project.name}/${module}.html
+war=${ant.project.name}.war
+y.files.lib.dir=C:/Documents and Settings/hramos/My Documents/yfiles-2.6.0/yfiles-2.6-complete/lib
+local.debug.dir=C:/Documents and Settings/hramos/.IntelliJIdea8x/system/gwt/PIPE2.PIPE260e03a6c/PIPE2.184565e3/run/tomcat/webapps/ROOT/
+y.files.axaj.dir=C:/apache-tomcat-5.5.25/webapps/yfiles-ajax/WEB-INF/lib
+local.unit.test.dir=C:/Documents and Settings/hramos/My Documents/PIPE2.0/trunk/PIPE2.0/tomcat/webapps/ROOT
+y.files.flex.lib.dir=C:/Documents and Settings/hramos/My Documents/yfilesflex-1.3/lib/server-java

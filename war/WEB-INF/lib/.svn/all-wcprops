@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/serum/!svn/ver/2887/PIPE2/war/WEB-INF/lib
+END
+y.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/serum/!svn/ver/1871/PIPE2/war/WEB-INF/lib/y.jar
+END
+GraphML.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/serum/!svn/ver/1871/PIPE2/war/WEB-INF/lib/GraphML.jar
+END
+commons-fileupload-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/serum/!svn/ver/1871/PIPE2/war/WEB-INF/lib/commons-fileupload-1.2.jar
+END
+commons-io-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/serum/!svn/ver/1871/PIPE2/war/WEB-INF/lib/commons-io-1.3.1.jar
+END
+yfiles-server.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/serum/!svn/ver/1871/PIPE2/war/WEB-INF/lib/yfiles-server.jar
+END
+tagsoup.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/serum/!svn/ver/1871/PIPE2/war/WEB-INF/lib/tagsoup.jar
+END
+gwt-servlet.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/serum/!svn/ver/2887/PIPE2/war/WEB-INF/lib/gwt-servlet.jar
+END

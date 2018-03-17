@@ -1,0 +1,4 @@
+HPRD version 8.
+
+The script prepareHPRD_db.pl should be run after ../IDMapper/geneSymbol-geneID_human.tsv
+is in place.

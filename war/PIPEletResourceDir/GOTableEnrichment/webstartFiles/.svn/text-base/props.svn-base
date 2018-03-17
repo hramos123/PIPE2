@@ -1,0 +1,6 @@
+plugin.gaggle.load=org.systemsbiology.gaggle.geese.cy.enrichment.EnrichmentGraphPlugin
+visualStyle=GO
+defaultLayoutStrategy=hierarchical
+
+
+

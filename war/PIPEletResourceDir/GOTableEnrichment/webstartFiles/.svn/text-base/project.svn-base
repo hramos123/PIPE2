@@ -1,0 +1,9 @@
+props=jar://props
+sif=jar://network.sif
+species=GO
+vprops=jar://vizmap.props
+noa=jar://commonNames.noa
+noa=jar://pvalues.noa
+noa=jar://dataSetCounts.noa
+noa=jar://organismCount.noa
+noa=jar://genes.noa

@@ -1,0 +1,80 @@
+<mappings>
+	<mapping source-id-type="IPI Number"
+		destination-id-type="Entrez Gene ID"
+		file="ipiEntrezMap12-16-09.txt"
+        source-column-in-file="0"
+		destination-column-in-file="1">
+	</mapping>
+    	<mapping source-id-type="IPI Number"
+		destination-id-type="Predicted TMH"
+		file="ipi-TMH-12-16-09.txt"
+        source-column-in-file="0"
+		destination-column-in-file="1">
+	</mapping>
+    <mapping source-id-type="UniProt ID"
+		destination-id-type="Entrez Gene ID"
+		file="uniprot-GeneID09-22-09.tsv"
+        source-column-in-file="0"
+		destination-column-in-file="1">
+	</mapping>
+    <mapping source-id-type="Entrez Gene ID"
+		destination-id-type="Gene Symbol"
+		file="geneInfo-hmry11-02-09.txt"
+        source-column-in-file="0"
+		destination-column-in-file="1">
+	</mapping>
+    <mapping source-id-type="Entrez Gene ID"
+		destination-id-type="Description"
+		file="geneInfo-hmry11-02-09.txt"
+        source-column-in-file="0"
+		destination-column-in-file="2">
+	</mapping>
+    <mapping source-id-type="Entrez Gene ID"
+		destination-id-type="Uniprot Transmembrane KW"
+		file="swissprotTransmembraneKeywords.tsv"
+        source-column-in-file="0"
+		destination-column-in-file="1">
+	</mapping>
+    <mapping source-id-type="Entrez Gene ID"
+		destination-id-type="IPI Number"
+		file="ipiEntrezMap12-16-09.txt"
+        source-column-in-file="1"
+		destination-column-in-file="0">
+	</mapping>
+    <mapping source-id-type="Entrez Gene ID"
+		destination-id-type="Predicted TMH"
+		file="hmrGeneID-TMH.tsv"
+		destination-column-in-file="1"
+		source-column-in-file="0">
+	</mapping>
+    <mapping source-id-type="Entrez Gene ID"
+		destination-id-type="Uniprot Keyword"
+		file="swissprotKwSubCelLocTisSpecInd.tsv"
+        source-column-in-file="0"
+		destination-column-in-file="1">
+	</mapping>
+    <mapping source-id-type="Entrez Gene ID"
+		destination-id-type="Uniprot Sub-Cellular Location"
+		file="swissprotKwSubCelLocTisSpecInd.tsv"
+        source-column-in-file="0"
+		destination-column-in-file="2">
+	</mapping>
+    <mapping source-id-type="Yeast ORF"
+		destination-id-type="Entrez Gene ID"
+		file="geneInfoYeast11-02-09.txt"
+        source-column-in-file="0"
+		destination-column-in-file="1">
+	</mapping>
+    <mapping source-id-type="Yeast ORF"
+		destination-id-type="Gene Symbol"
+		file="geneInfoYeast11-02-09.txt"
+        source-column-in-file="0"
+		destination-column-in-file="2">
+	</mapping>
+    <mapping source-id-type="Yeast ORF"
+		destination-id-type="Description"
+		file="geneInfoYeast11-02-09.txt"
+        source-column-in-file="0"
+		destination-column-in-file="3">
+	</mapping>
+</mappings>

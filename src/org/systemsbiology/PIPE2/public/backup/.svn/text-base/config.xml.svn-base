@@ -1,0 +1,4 @@
+<config>
+    <context-root>http://localhost:8888/org.systemsbiology.PIPE2.PIPE2/</context-root>
+    <service-extension></service-extension>
+</config>

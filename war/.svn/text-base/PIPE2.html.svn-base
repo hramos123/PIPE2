@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>PIPE2</title>
+	<link rel="stylesheet" href="PIPE2/PIPE2.css">
+
+	<!-- Google Visualizations stuff -->
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+    <!-- Gaggle stuff -->
+    <script type="text/javascript" src="PIPE2/gaggleData.js"></script>
+
+    <!-- Bioheatmap stuff -->
+    <script type="text/javascript">
+          google.load("visualization", "1", {});
+          google.load("prototype", "1.6");
+        </script>
+
+        <!--<script type="text/javascript" src="http://systemsbiology-visualizations.googlecode.com/svn/trunk/src/main/js/load.js"></script>
+        <script type="text/javascript">
+            systemsbiology.load("visualization", "1.0", {packages:["bioheatmap"]});
+        </script>-->
+
+    <script type="text/javascript" src="PIPE2/bioheatmap.js"></script>
+        <script type="text/javascript">
+            systemsbiology.load("visualization", "1.0", {packages:["bioheatmap"]});
+        </script>
+    
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="PIPE2/PIPE2.nocache.js"></script>
+<!--<center><h3>PIPE2</h3></center>-->
+</body>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  codebase="$CODEBASE$" 
+  href="cy.jnlp">
+  <information>
+    <title>$TITLE$</title>
+    <vendor> Gene Ontology Enrichment</vendor>
+    <homepage href="docs/help.html"/>
+    <offline-allowed/>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.5+" max-heap-size="1024M"/>
+    <jar href="http://gaggle.systemsbiology.net/2007-04/jars/cytoscape.jar"/>
+    <jar href="http://gaggle.systemsbiology.net/2007-04/jars/ouai.jar"/>
+    <jar href="http://gaggle.systemsbiology.net/2007-04/jars/cytoAux.jar"/>
+    <jar href="http://gaggle.systemsbiology.net/2007-04/jars/jdom.jar"/>
+    <jar href="http://gaggle.systemsbiology.net/2007-04/jars/enrichmentGraph.jar"/>
+    <jar href="data.jar"/>
+  </resources>
+  <application-desc>
+    <argument>-p</argument>
+    <argument>jar://project</argument>
+      <argument>--gooseName</argument>
+      <argument>$TITLE$</argument>
+  </application-desc>
+</jnlp>
+
+

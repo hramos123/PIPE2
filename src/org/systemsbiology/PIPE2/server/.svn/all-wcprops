@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/serum/!svn/ver/3292/PIPE2/src/org/systemsbiology/PIPE2/server
+END
+YfilesServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/serum/!svn/ver/3018/PIPE2/src/org/systemsbiology/PIPE2/server/YfilesServices.java
+END
+GOTableServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/serum/!svn/ver/3292/PIPE2/src/org/systemsbiology/PIPE2/server/GOTableServiceImpl.java
+END
+IDMapperServicesImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/serum/!svn/ver/2595/PIPE2/src/org/systemsbiology/PIPE2/server/IDMapperServicesImpl.java
+END
+FileUploadServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/serum/!svn/ver/1896/PIPE2/src/org/systemsbiology/PIPE2/server/FileUploadServlet.java
+END
+FirstServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/serum/!svn/ver/2485/PIPE2/src/org/systemsbiology/PIPE2/server/FirstServiceImpl.java
+END
+HPRDNetworkServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/serum/!svn/ver/1466/PIPE2/src/org/systemsbiology/PIPE2/server/HPRDNetworkServiceImpl.java
+END
+KeywordSearchServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/serum/!svn/ver/2394/PIPE2/src/org/systemsbiology/PIPE2/server/KeywordSearchServiceImpl.java
+END
+VennDiagramServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/serum/!svn/ver/2716/PIPE2/src/org/systemsbiology/PIPE2/server/VennDiagramServiceImpl.java
+END

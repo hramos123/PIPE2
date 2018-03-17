@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/serum/!svn/ver/2607/PIPE2/src/org/systemsbiology/PIPE2/client/view
+END
+FakePortletViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/serum/!svn/ver/2365/PIPE2/src/org/systemsbiology/PIPE2/client/view/FakePortletViewController.java
+END
+TabbedViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/serum/!svn/ver/1609/PIPE2/src/org/systemsbiology/PIPE2/client/view/TabbedViewController.java
+END
+MobileWindowsViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/serum/!svn/ver/2487/PIPE2/src/org/systemsbiology/PIPE2/client/view/MobileWindowsViewController.java
+END
+CopyPasteDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/serum/!svn/ver/1904/PIPE2/src/org/systemsbiology/PIPE2/client/view/CopyPasteDialog.java
+END
+NotificationPopup.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/serum/!svn/ver/2514/PIPE2/src/org/systemsbiology/PIPE2/client/view/NotificationPopup.java
+END
+PIPEViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/serum/!svn/ver/2365/PIPE2/src/org/systemsbiology/PIPE2/client/view/PIPEViewController.java
+END
+BroadcastButtonPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/serum/!svn/ver/2607/PIPE2/src/org/systemsbiology/PIPE2/client/view/BroadcastButtonPanel.java
+END
+TooltipPopup.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/serum/!svn/ver/1466/PIPE2/src/org/systemsbiology/PIPE2/client/view/TooltipPopup.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/serum/!svn/ver/2405/PIPE2/war/PIPEletResourceDir/KeywordLookupPipelet
+END
+sp_kw_4932.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/serum/!svn/ver/2405/PIPE2/war/PIPEletResourceDir/KeywordLookupPipelet/sp_kw_4932.tsv
+END
+sp_kw_9606.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/serum/!svn/ver/2394/PIPE2/war/PIPEletResourceDir/KeywordLookupPipelet/sp_kw_9606.tsv
+END
+sp_kw_10116.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/serum/!svn/ver/2394/PIPE2/war/PIPEletResourceDir/KeywordLookupPipelet/sp_kw_10116.tsv
+END
+sp_kw_10090.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/serum/!svn/ver/2394/PIPE2/war/PIPEletResourceDir/KeywordLookupPipelet/sp_kw_10090.tsv
+END
+parseUniprotKW-4PIPE2.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/serum/!svn/ver/2394/PIPE2/war/PIPEletResourceDir/KeywordLookupPipelet/parseUniprotKW-4PIPE2.pl
+END
+replaceYeastGeneIDsWOrf.pl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/serum/!svn/ver/2405/PIPE2/war/PIPEletResourceDir/KeywordLookupPipelet/replaceYeastGeneIDsWOrf.pl
+END
+gene2go_HMY.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/serum/!svn/ver/2394/PIPE2/war/PIPEletResourceDir/KeywordLookupPipelet/gene2go_HMY.tsv
+END

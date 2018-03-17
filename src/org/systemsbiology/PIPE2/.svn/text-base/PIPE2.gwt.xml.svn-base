@@ -1,0 +1,43 @@
+<module rename-to='PIPE2'>
+	<!-- Inherit the core Web Toolkit stuff.-->
+	<inherits name='com.google.gwt.user.User'/>
+	<inherits name='com.google.gwt.json.JSON'/>
+    <!--  Gwm dependency -->
+    <inherits name='org.gwm.GwtWindowManager'/>
+
+    <!-- google charts -->
+    <inherits name='com.googlecode.charts4j' />
+    
+	<!-- google vizualizations api -->
+	<inherits name='com.google.gwt.visualization.Visualization'/>
+
+	<!-- GWT2SWF stuff for inserting FLEX stuff (network) -->
+	<inherits name='pl.rmalinowski.gwt2swf.GWT2SWF' />
+	<inherits name='org.argunet.gwt.fabridge.FABridge' />
+    
+	<!-- Inherit the Junit test environment for unit testing-->
+	<!--<inherits name="com.google.gwt.junit.JUnit"/>-->
+    
+	<!-- Inherit the default GWT style sheet.  You can change       -->
+      <!-- the theme of your GWT application by uncommenting          -->
+      <!-- any one of the following lines.                            -->
+      <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+    <!--<inherits name="com.google.gwt.user.theme.chrome.Chrome"/> -->
+      <!--<inherits name="com.google.gwt.user.theme.dark.Dark"/>-->
+    <!--<set-property name='user.agent' value='ie6' />-->
+    <!--“ie6/opera/gecko1_8/safari/gecko”-->
+
+	<source path='client'/>
+	<source path='domain'/>
+
+	<entry-point class='org.systemsbiology.PIPE2.client.PIPE2'/>
+
+	<servlet path="/FirstService" class="org.systemsbiology.PIPE2.server.FirstServiceImpl"/>
+	<servlet path="/GOTableService" class="org.systemsbiology.PIPE2.server.GOTableServiceImpl"/>
+	<servlet path="/HPRDNetworkService" class="org.systemsbiology.PIPE2.server.HPRDNetworkServiceImpl"/>
+	<servlet path="/IDMapperServices" class="org.systemsbiology.PIPE2.server.IDMapperServicesImpl"/>
+	<servlet path="/YfilesServices" class="org.systemsbiology.PIPE2.server.YfilesServices"/>
+	<servlet path="/FileUpload" class="org.systemsbiology.PIPE2.server.FileUploadServlet"/>
+	<servlet path="/KeywordSearchService" class="org.systemsbiology.PIPE2.server.KeywordSearchServiceImpl"/>
+    <servlet path="/VennDiagramService" class="org.systemsbiology.PIPE2.server.VennDiagramServiceImpl"/>
+</module>

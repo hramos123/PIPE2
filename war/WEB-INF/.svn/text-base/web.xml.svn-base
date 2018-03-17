@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- START SNIPPET: webxml -->
+<!--<!DOCTYPE web-app-->
+        <!--PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"-->
+        <!--"http://java.sun.com/dtd/web-app_2_3.dtd">-->
+
+<web-app>
+    <welcome-file-list>
+        <welcome-file>
+            PIPE2.html
+        </welcome-file>
+    </welcome-file-list>
+
+	<servlet>
+        <servlet-name>FirstService</servlet-name>
+        <servlet-class>
+	        org.systemsbiology.PIPE2.server.FirstServiceImpl
+        </servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+	<servlet>
+		<servlet-class>org.systemsbiology.PIPE2.server.GOTableServiceImpl</servlet-class>
+		<servlet-name>GOTableService</servlet-name>
+	</servlet>
+	<servlet>
+		<servlet-class>org.systemsbiology.PIPE2.server.HPRDNetworkServiceImpl</servlet-class>
+		<servlet-name>HPRDNetworkService</servlet-name>
+	</servlet>
+	<servlet>
+		<servlet-class>org.systemsbiology.PIPE2.server.IDMapperServicesImpl</servlet-class>
+		<servlet-name>IDMapperServices</servlet-name>
+	</servlet>
+	<servlet>
+		<servlet-name>YfilesServices</servlet-name>
+		<servlet-class>org.systemsbiology.PIPE2.server.YfilesServices</servlet-class>
+        <load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet>
+        <servlet-class>org.systemsbiology.PIPE2.server.FileUploadServlet</servlet-class>
+        <servlet-name>FileUploadServlet</servlet-name>
+    </servlet>
+    <servlet>
+        <servlet-class>org.systemsbiology.PIPE2.server.KeywordSearchServiceImpl</servlet-class>
+        <servlet-name>KeywordSearchService</servlet-name>
+    </servlet>
+    <servlet>
+        <servlet-name>NetworkImageExportServlet</servlet-name>
+        <description>Sends a request back to the client as a download popup for export.</description>
+        <servlet-class>com.yworks.yfiles.server.graphml.servlets.ExportServlet</servlet-class>
+  </servlet>
+    <servlet>
+        <servlet-class>org.systemsbiology.PIPE2.server.VennDiagramServiceImpl</servlet-class>
+        <servlet-name>VennDiagramService</servlet-name>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FileUploadServlet</servlet-name>
+        <url-pattern>/PIPE2/FileUpload</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>FirstService</servlet-name>
+        <url-pattern>/PIPE2/FirstService</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GOTableService</servlet-name>
+		<url-pattern>/PIPE2/GOTableService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>HPRDNetworkService</servlet-name>
+		<url-pattern>/PIPE2/HPRDNetworkService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>IDMapperServices</servlet-name>
+		<url-pattern>/PIPE2/IDMapperServices</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>YfilesServices</servlet-name>
+		<url-pattern>/PIPE2/YfilesServices</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>YfilesServices</servlet-name>
+		<url-pattern>/PIPE2/FirstYfilesServlet</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>KeywordSearchService</servlet-name>
+        <url-pattern>/PIPE2/KeywordSearchService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>NetworkImageExportServlet</servlet-name>
+    <url-pattern>/PIPE2/NetworkImageExport</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VennDiagramService</servlet-name>
+        <url-pattern>/PIPE2/VennDiagramService</url-pattern>
+    </servlet-mapping>
+</web-app>
+        <!-- END SNIPPET: webxml -->
